@@ -4,9 +4,10 @@
 # Python program to swap two numbers.
 
 def swap(a,b):
-    temp = a
-    a = b 
-    b = temp
+#    temp = a
+#    a = b 
+#5    b = temp
+    a,b = b,a
     print("The value of a after swapping is :",a)
     print("The value of b after swapping is :",b)
 
