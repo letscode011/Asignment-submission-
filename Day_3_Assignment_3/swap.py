@@ -6,7 +6,7 @@
 def swap(a,b):
 #    temp = a
 #    a = b 
-#5    b = temp
+#    b = temp
     a,b = b,a
     print("The value of a after swapping is :",a)
     print("The value of b after swapping is :",b)
